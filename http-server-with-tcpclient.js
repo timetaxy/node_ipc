@@ -1,6 +1,6 @@
 const express = require('express');
 // const client = require('./tcp/client');
-const client = require('./client');
+const client = require('./node-tcp-client');
 const EventEmitter = require('events');
 
 class OnDataEmitter extends EventEmitter { }
