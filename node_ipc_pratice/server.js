@@ -1,5 +1,7 @@
-const { RootIPC } = require('node-ipc');
-const ipc = RootIPC;
+// const t1 = require('node-ipc').default;
+// const { RootIPC } = require('node-ipc');
+// const ipc = RootIPC;
+const ipc = require('node-ipc').default;
 // import ipc from '../../../node-ipc.js';
 
 /***************************************\

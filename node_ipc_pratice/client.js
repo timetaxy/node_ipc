@@ -1,4 +1,4 @@
-const ipc = require('node-ipc');
+const ipc = require('node-ipc').default;
 // import ipc from '../../../node-ipc.js';
 
 /***************************************\
